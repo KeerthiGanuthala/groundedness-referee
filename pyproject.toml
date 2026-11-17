@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "groundedness-referee"
+version = "0.1.0"
+description = "Counterfactual failure attribution referee that breaks the symmetry of RAG groundedness scores."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Shivani Singh Rajawat"}
+]
+dependencies = []
+
+[project.optional-dependencies]
+torch = [
+    "torch>=2.0.0",
+]
+dev = [
+    "numpy>=1.24.0",
+]
+
+[project.scripts]
+groundedness-referee = "groundedness_referee.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
