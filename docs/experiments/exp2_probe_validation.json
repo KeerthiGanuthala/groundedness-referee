@@ -1,0 +1,148 @@
+{
+  "context_flip_sweep": [
+    {
+      "attribution_accuracy": 1.0,
+      "context_flip_rate": 0.0,
+      "probe_defeat_rate": 0.0,
+      "spurious_retrieval_blame_rate": 0.0,
+      "unsupported_count": 101
+    },
+    {
+      "attribution_accuracy": 0.9802,
+      "context_flip_rate": 0.05,
+      "probe_defeat_rate": 0.0198,
+      "spurious_retrieval_blame_rate": 0.0385,
+      "unsupported_count": 101
+    },
+    {
+      "attribution_accuracy": 0.9505,
+      "context_flip_rate": 0.1,
+      "probe_defeat_rate": 0.0495,
+      "spurious_retrieval_blame_rate": 0.0577,
+      "unsupported_count": 101
+    },
+    {
+      "attribution_accuracy": 0.8812,
+      "context_flip_rate": 0.2,
+      "probe_defeat_rate": 0.1188,
+      "spurious_retrieval_blame_rate": 0.1154,
+      "unsupported_count": 101
+    },
+    {
+      "attribution_accuracy": 0.703,
+      "context_flip_rate": 0.35,
+      "probe_defeat_rate": 0.297,
+      "spurious_retrieval_blame_rate": 0.3269,
+      "unsupported_count": 101
+    }
+  ],
+  "experiment": "exp2_probe_validation",
+  "grid_rows": [
+    {
+      "attribution_accuracy": 1.0,
+      "generator_faithful_rate": 0.92,
+      "mix_name": "mix_retrieval_heavy",
+      "per_cause_accuracy": {
+        "fabrication-with-evidence-present": 1.0,
+        "generation-ignore": 1.0,
+        "retrieval-miss": 1.0,
+        "unattributable": 1.0
+      },
+      "recommended_fix": "fix_retriever",
+      "retriever_recall": 0.55,
+      "unsupported_count": 111
+    },
+    {
+      "attribution_accuracy": 1.0,
+      "generator_faithful_rate": 0.75,
+      "mix_name": "mix_balanced",
+      "per_cause_accuracy": {
+        "fabrication-with-evidence-present": 1.0,
+        "generation-ignore": 1.0,
+        "retrieval-miss": 1.0,
+        "unattributable": 1.0
+      },
+      "recommended_fix": "fix_retriever",
+      "retriever_recall": 0.75,
+      "unsupported_count": 85
+    },
+    {
+      "attribution_accuracy": 1.0,
+      "generator_faithful_rate": 0.62,
+      "mix_name": "mix_ignore_heavy",
+      "per_cause_accuracy": {
+        "fabrication-with-evidence-present": 1.0,
+        "generation-ignore": 1.0,
+        "retrieval-miss": 1.0,
+        "unattributable": 1.0
+      },
+      "recommended_fix": "fix_generator",
+      "retriever_recall": 0.88,
+      "unsupported_count": 122
+    },
+    {
+      "attribution_accuracy": 1.0,
+      "generator_faithful_rate": 0.62,
+      "mix_name": "mix_fabrication_heavy",
+      "per_cause_accuracy": {
+        "fabrication-with-evidence-present": 1.0,
+        "generation-ignore": 1.0,
+        "retrieval-miss": 1.0,
+        "unattributable": 1.0
+      },
+      "recommended_fix": "fix_generator",
+      "retriever_recall": 0.88,
+      "unsupported_count": 118
+    },
+    {
+      "attribution_accuracy": 1.0,
+      "generator_faithful_rate": 0.68,
+      "mix_name": "mix_high_stress",
+      "per_cause_accuracy": {
+        "fabrication-with-evidence-present": 1.0,
+        "generation-ignore": 1.0,
+        "retrieval-miss": 1.0,
+        "unattributable": 1.0
+      },
+      "recommended_fix": "fix_generator",
+      "retriever_recall": 0.65,
+      "unsupported_count": 130
+    }
+  ],
+  "n_questions": 240,
+  "pooled_confusion_matrix": {
+    "fabrication-with-evidence-present": {
+      "fabrication-with-evidence-present": 144,
+      "generation-ignore": 0,
+      "retrieval-miss": 0,
+      "unattributable": 0
+    },
+    "generation-ignore": {
+      "fabrication-with-evidence-present": 0,
+      "generation-ignore": 152,
+      "retrieval-miss": 0,
+      "unattributable": 0
+    },
+    "retrieval-miss": {
+      "fabrication-with-evidence-present": 0,
+      "generation-ignore": 0,
+      "retrieval-miss": 238,
+      "unattributable": 0
+    },
+    "unattributable": {
+      "fabrication-with-evidence-present": 0,
+      "generation-ignore": 0,
+      "retrieval-miss": 0,
+      "unattributable": 32
+    }
+  },
+  "pooled_overall_accuracy": 1.0,
+  "pooled_per_cause_accuracy": {
+    "fabrication-with-evidence-present": 1.0,
+    "generation-ignore": 1.0,
+    "retrieval-miss": 1.0,
+    "unattributable": 1.0
+  },
+  "pooled_unsupported_evaluated": 566,
+  "seed": 20261117
+}

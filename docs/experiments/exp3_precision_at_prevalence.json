@@ -1,0 +1,58 @@
+{
+  "experiment": "exp3_precision_at_prevalence",
+  "measured_scorer_fpr": 0.0417,
+  "measured_scorer_tpr": 1.0,
+  "prevalence_rows": [
+    {
+      "false_alarm_share": 0.8049,
+      "flag_precision_ppv": 0.1951,
+      "hallucination_prevalence": 0.01,
+      "min_n_95pct_zero_bound": 300,
+      "min_n_for_96_flagged_events": 9600,
+      "min_n_single_event": 100
+    },
+    {
+      "false_alarm_share": 0.6712,
+      "flag_precision_ppv": 0.3288,
+      "hallucination_prevalence": 0.02,
+      "min_n_95pct_zero_bound": 150,
+      "min_n_for_96_flagged_events": 4800,
+      "min_n_single_event": 50
+    },
+    {
+      "false_alarm_share": 0.4419,
+      "flag_precision_ppv": 0.5581,
+      "hallucination_prevalence": 0.05,
+      "min_n_95pct_zero_bound": 60,
+      "min_n_for_96_flagged_events": 1920,
+      "min_n_single_event": 20
+    },
+    {
+      "false_alarm_share": 0.2727,
+      "flag_precision_ppv": 0.7273,
+      "hallucination_prevalence": 0.1,
+      "min_n_95pct_zero_bound": 30,
+      "min_n_for_96_flagged_events": 960,
+      "min_n_single_event": 10
+    },
+    {
+      "false_alarm_share": 0.1429,
+      "flag_precision_ppv": 0.8571,
+      "hallucination_prevalence": 0.2,
+      "min_n_95pct_zero_bound": 15,
+      "min_n_for_96_flagged_events": 480,
+      "min_n_single_event": 5
+    },
+    {
+      "false_alarm_share": 0.0718,
+      "flag_precision_ppv": 0.9282,
+      "hallucination_prevalence": 0.35,
+      "min_n_95pct_zero_bound": 9,
+      "min_n_for_96_flagged_events": 275,
+      "min_n_single_event": 3
+    }
+  ],
+  "seed": 20261117,
+  "supported_evaluated": 216,
+  "unsupported_evaluated": 432
+}

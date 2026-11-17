@@ -1,0 +1,92 @@
+{
+  "backend": "pure_mlp",
+  "changed_experiment_conclusions": 0,
+  "experiment": "exp5_learned_judge",
+  "learned_overall_accuracy": 1.0,
+  "lexical_overall_accuracy": 0.6735,
+  "overall_agreement_rate": 0.6735,
+  "phenomenon_breakdown": [
+    {
+      "agreement_rate": 1.0,
+      "count": 48,
+      "learned_judge_accuracy": 1.0,
+      "lexical_accuracy": 1.0,
+      "phenomenon": "distractor_trap_context"
+    },
+    {
+      "agreement_rate": 1.0,
+      "count": 216,
+      "learned_judge_accuracy": 1.0,
+      "lexical_accuracy": 1.0,
+      "phenomenon": "exact_entailed"
+    },
+    {
+      "agreement_rate": 1.0,
+      "count": 216,
+      "learned_judge_accuracy": 1.0,
+      "lexical_accuracy": 1.0,
+      "phenomenon": "fabricated_number"
+    },
+    {
+      "agreement_rate": 0.0,
+      "count": 216,
+      "learned_judge_accuracy": 1.0,
+      "lexical_accuracy": 0.0,
+      "phenomenon": "negation_polarity"
+    },
+    {
+      "agreement_rate": 0.2222,
+      "count": 216,
+      "learned_judge_accuracy": 1.0,
+      "lexical_accuracy": 0.2222,
+      "phenomenon": "paraphrase_entailed"
+    },
+    {
+      "agreement_rate": 1.0,
+      "count": 216,
+      "learned_judge_accuracy": 1.0,
+      "lexical_accuracy": 1.0,
+      "phenomenon": "prior_ignore"
+    },
+    {
+      "agreement_rate": 1.0,
+      "count": 48,
+      "learned_judge_accuracy": 1.0,
+      "lexical_accuracy": 1.0,
+      "phenomenon": "split_partial"
+    }
+  ],
+  "pipeline_decision_comparisons": [
+    {
+      "conclusion_unchanged": true,
+      "learned_recommended_fix": "fix_retriever",
+      "lexical_recommended_fix": "fix_retriever",
+      "pipeline": "exp1_pipeline_a"
+    },
+    {
+      "conclusion_unchanged": true,
+      "learned_recommended_fix": "fix_generator",
+      "lexical_recommended_fix": "fix_generator",
+      "pipeline": "exp1_pipeline_b"
+    },
+    {
+      "conclusion_unchanged": true,
+      "learned_recommended_fix": "fix_retriever",
+      "lexical_recommended_fix": "fix_retriever",
+      "pipeline": "exp4_p1"
+    },
+    {
+      "conclusion_unchanged": true,
+      "learned_recommended_fix": "fix_generator",
+      "lexical_recommended_fix": "fix_generator",
+      "pipeline": "exp4_p7"
+    }
+  ],
+  "seed": 20261117,
+  "total_eval_pairs": 1176,
+  "train_stats": {
+    "epochs": 16,
+    "final_loss": 0.0038,
+    "initial_loss": 0.4456
+  }
+}
