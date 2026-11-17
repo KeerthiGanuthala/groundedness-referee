@@ -1,0 +1,53 @@
+{
+  "files": {
+    "__init__.py": {
+      "coverage": 1.0,
+      "covered": 2,
+      "statements": 2
+    },
+    "cli.py": {
+      "coverage": 0.9429,
+      "covered": 33,
+      "statements": 35
+    },
+    "components.py": {
+      "coverage": 0.9496,
+      "covered": 113,
+      "statements": 119
+    },
+    "corpus.py": {
+      "coverage": 0.9928,
+      "covered": 137,
+      "statements": 138
+    },
+    "experiments.py": {
+      "coverage": 0.996,
+      "covered": 246,
+      "statements": 247
+    },
+    "judge.py": {
+      "coverage": 0.9706,
+      "covered": 132,
+      "statements": 136
+    },
+    "referee.py": {
+      "coverage": 0.9857,
+      "covered": 69,
+      "statements": 70
+    },
+    "schema.py": {
+      "coverage": 1.0,
+      "covered": 109,
+      "statements": 109
+    },
+    "scorer.py": {
+      "coverage": 1.0,
+      "covered": 55,
+      "statements": 55
+    }
+  },
+  "minimum_required": 0.9,
+  "overall_coverage": 0.9835,
+  "total_covered": 896,
+  "total_statements": 911
+}

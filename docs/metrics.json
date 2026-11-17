@@ -1,0 +1,73 @@
+{
+  "exp1": {
+    "pipeline_a_answered_count": 216,
+    "pipeline_a_gain_fix_gen": "+0.0231",
+    "pipeline_a_gain_fix_ret": "+0.2269",
+    "pipeline_a_gen_fab_pct": "5.7%",
+    "pipeline_a_gen_ignore_pct": "3.4%",
+    "pipeline_a_grounded_count": 128,
+    "pipeline_a_ret_miss_pct": "90.9%",
+    "pipeline_a_score_4dp": "0.5926",
+    "pipeline_b_answered_count": 226,
+    "pipeline_b_gain_fix_gen": "+0.2336",
+    "pipeline_b_gain_fix_ret": "+0.0265",
+    "pipeline_b_gen_fab_pct": "40.2%",
+    "pipeline_b_gen_ignore_pct": "41.3%",
+    "pipeline_b_grounded_count": 134,
+    "pipeline_b_ret_miss_pct": "7.6%",
+    "pipeline_b_score_4dp": "0.5929",
+    "pipeline_b_unattributable_pct": "10.9%",
+    "shared_score_2dp": "0.59"
+  },
+  "exp2": {
+    "flip_00_accuracy_pct": "100.0%",
+    "flip_10_accuracy_pct": "95.0%",
+    "flip_10_defeat_pct": "5.0%",
+    "flip_20_accuracy_pct": "88.1%",
+    "flip_20_defeat_pct": "11.9%",
+    "flip_35_accuracy_pct": "70.3%",
+    "flip_35_defeat_pct": "29.7%",
+    "pooled_overall_accuracy_pct": "100.0%",
+    "pooled_unsupported_evaluated": 566
+  },
+  "exp3": {
+    "prev_01_min_n_95": 300,
+    "prev_01_ppv_pct": "19.5%",
+    "prev_05_min_n_95": 60,
+    "prev_05_ppv_pct": "55.8%",
+    "prev_10_ppv_pct": "72.7%",
+    "prev_20_ppv_pct": "85.7%",
+    "scorer_fpr_pct": "4.2%",
+    "scorer_tpr_pct": "100.0%"
+  },
+  "exp4": {
+    "mean_referee_gain": "+0.1896",
+    "mean_score_only_regret": "0.0558",
+    "mean_wrong_fix_gain": "+0.0780",
+    "mean_wrong_fix_regret": "0.1116",
+    "p1_regret": "0.2129",
+    "p7_regret": "0.1768"
+  },
+  "exp5": {
+    "changed_conclusions": 0,
+    "learned_overall_acc_pct": "100.0%",
+    "lexical_overall_acc_pct": "67.3%",
+    "negation_learned_acc_pct": "100.0%",
+    "negation_lexical_acc_pct": "0.0%",
+    "overall_agreement_pct": "67.3%",
+    "paraphrase_learned_acc_pct": "100.0%",
+    "paraphrase_lexical_acc_pct": "22.2%",
+    "total_eval_pairs": 1176
+  },
+  "fixture": {
+    "distractor_trap_count": 48,
+    "n_passages": 696,
+    "n_questions": 240,
+    "passages_sha256_prefix": "a94a7309491e",
+    "qa_sha256_prefix": "210376de6247",
+    "single_passage_count": 120,
+    "split_evidence_count": 48,
+    "unanswerable_count": 24
+  },
+  "seed": 20261117
+}
