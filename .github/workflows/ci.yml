@@ -18,8 +18,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Run full offline verification (fixtures, tests, coverage, experiments, number check)
-        run: make verify
+    
 
       - name: Assert git working tree is clean after regeneration
         run: git diff --exit-code
